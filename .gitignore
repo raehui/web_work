@@ -14,6 +14,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+#이클립스 추가 래희
+*.prefs
 
 #이것도 추가 하세요!
 .classpath
