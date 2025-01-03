@@ -1,7 +1,0 @@
-package test.servlet;
-
-public class PingServlet {
-	//클래스로 생성된 객체가 tomcat 서버에서 /ping 요청이 오면 직접 응답을 하도록...
-	
-
-}
