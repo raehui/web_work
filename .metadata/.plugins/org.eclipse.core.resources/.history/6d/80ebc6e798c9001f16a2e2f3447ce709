@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+</head>
+<body>
+	<div class="container">
+		<h1>인덱스 페이지 입니다</h1>
+		<ui>
+			<li><a href="fortune">오늘의 운세</a></li>
+			<li><a href="friends">친구목록</a></li>
+			<li><a href="members">회원목록</a></li>
+			
+		</ui>
+	</div>
+</body>
+</html>

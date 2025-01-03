@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+</head>
+<body>
+	<h1>인덱스 페이지 입니다.</h1>
+	<p>내 이름은 :<strong>김구라</strong> </p>
+</body>
+</html>

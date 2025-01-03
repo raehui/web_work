@@ -1,0 +1,14 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_number_of_computers=20
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="html template" enabled\="true" name\="html">\t\t//\uC751\uB2F5 \uC778\uCF54\uB529 \uC124\uC815&\#13;\r\n\t\tresp.setCharacterEncoding("utf-8");&\#13;\r\n\t\t//\uC751\uB2F5 \uCEE8\uD150\uD2B8 \uC124\uC815&\#13;\r\n\t\t//\uC751\uB2F5\uD560 \uB0B4\uC6A9\uC744 \uBBF8\uB9AC \uC54C\uB824\uC918\uC57C \uD568 "text.html \uD615\uC2DD\uC744 \uC751\uB2F5\uD560\uAC70\uACE0,,,,"&\#13;\r\n\t\tresp.setContentType("text/html; charset\=utf-8");\t\t&\#13;\r\n\t\t// \uC694\uCCAD\uC744 \uD55C \uD074\uB77C\uC774\uC5B8\uD2B8\uC5D0\uAC8C \uBB38\uC790\uC5F4\uC744 \uCD9C\uB825\uD560 \uC218 \uC787\uB294 \uAC1D\uCCB4 &\#13;\r\n\t\tPrintWriter pw \= resp.getWriter();&\#13;\r\n\t\tpw.println("&lt;\!doctype html&gt;");&\#13;\r\n\t\tpw.println("&lt;html&gt;");&\#13;\r\n\t\tpw.println("&lt;head&gt;");&\#13;\r\n\t\tpw.println("&lt;meta charset\='utf-8'&gt;");&\#13;\r\n\t\tpw.println("&lt;title&gt;&lt;/title&gt;");&\#13;\r\n\t\tpw.println("&lt;/head&gt;");&\#13;\r\n\t\tpw.println("&lt;body&gt;");&\#13;\r\n&\#13;\r\n\t\tpw.println("&lt;/body&gt;");&\#13;\r\n\t\tpw.println("&lt;/html&gt;");&\#13;\r\n\t\tpw.close();</template></templates>
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

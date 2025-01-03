@@ -1,0 +1,30 @@
+package test.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+/*
+ * 요청 경로를 작성할 때 주의점!
+ * 
+ * 1. context path 는 생략한다.
+ * 2. 반드시  /로 시작한다.
+ */
+@WebServlet("/fortune")
+public class FortuneServlet extends HttpServlet{
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// 요청을 한 클라이언트에게 문자열을 출력할 수 잇는 객체 
+		PrintWriter pw=resp.getWriter();
+		pw.println("lucky!");
+		pw.close();
+		
+		
+		
+	}
+	
+}

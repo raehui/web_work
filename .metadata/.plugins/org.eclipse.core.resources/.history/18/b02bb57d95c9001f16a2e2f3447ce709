@@ -1,0 +1,27 @@
+package test.servlet;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+@WebServlet("/friends")
+public class FriendsServlet extends HttpServlet{
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		//DB에서 읽어온 친구 목록이라고 가정하자
+		List<String>names=new ArrayList<>();
+		names.add("김구라");
+		names.add("해골");
+		names.add("원숭이");
+		names.add("주뎅이");
+		
+		//names 객체에 들어 있는 친구목록을 ul ,li 요소를 이용해서 출력해 보세요.
+		
+		
+	}
+}
