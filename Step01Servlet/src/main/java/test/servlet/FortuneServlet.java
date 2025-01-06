@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletResponse;
  * 1. context path 는 생략한다.
  * 2. 반드시  /로 시작한다.
  */
-@WebServlet("/fortune")
+@WebServlet("/fortune") 
 public class FortuneServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

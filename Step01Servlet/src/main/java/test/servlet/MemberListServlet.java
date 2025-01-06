@@ -21,7 +21,7 @@ public class MemberListServlet extends HttpServlet {
 		list.add(new MemberDto(2,"해골","행신동"));
 		list.add(new MemberDto(3,"원숭이","동물원"));
 		
-		//응답 인코딩 설정
+		//응답 인코딩 설정 
 		resp.setCharacterEncoding("utf-8");
 		//응답 컨텐트 설정
 		//응답할 내용을 미리 알려줘야 함 "text.html 형식을 응답할거고,,,,"

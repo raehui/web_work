@@ -17,9 +17,18 @@ import jakarta.servlet.http.HttpServletResponse;
 public class SendServlet extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		//요청과 관련된 객체 : req
-		//응답에 관련된 객채 : resp
+		//요청과 관련된 객체 : req, 웹브라우저가 요청을 하면 
+		//응답에 관련된 객채 : resp, 서버는 클라이언트에게 응답  
 		//요청은 모두 같음
+		/*
+		 * /send?msg=xxx
+		 * 
+		 * <input type="text" name="msg">
+		 * 
+		 * .getParameter("전송되는 파라미터명") 메소드는 get 방식, post 방식 전송 파라미터를 모두 추출 가능
+		 * 
+		 */
+		//msg라는 파라미터명을 가진 파라미터를 가지고 옴
 		String msg=req.getParameter("msg");
 		System.out.println("폼 전송된 내용: "+msg);
 		
