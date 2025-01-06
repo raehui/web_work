@@ -1,7 +1,0 @@
-package test.servlet;
-
-import jakarta.servlet.http.HttpServlet;
-
-public class FortuneServlet extends HttpServlet{
-
-}
