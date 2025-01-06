@@ -13,13 +13,14 @@ import jakarta.servlet.http.HttpServlet;
 import test.member.dto.MemberDto;
 import test.util.DbcpBean;
 
-public class MemberDao extends HttpServlet{
+public class MemberDao {
 	//update 하는 메서드
-	public boolean update(int num) {
+	public boolean update() {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		int rowCount = 0;
 		
+			
 		try {
 			conn = new DbcpBean().getConn();
 			//실행할 미완성의 sql 문
@@ -30,8 +31,8 @@ public class MemberDao extends HttpServlet{
 					""";
 			pstmt = conn.prepareStatement(sql);
 			// ? 에 값을 여기서 바인딩한다.
-			pstmt.setString(1,this.get );
-			pstmt.setString(2,this.getInitParameter("addr") );
+			pstmt.setString(1,);
+			pstmt.setString(2, );
 			pstmt.setInt(3, num);
 			
 			// sql 문 실행하고 변화된 row 의 갯수 리턴받기
@@ -65,7 +66,7 @@ public class MemberDao extends HttpServlet{
 		try {
 			conn = new DbcpBean().getConn();
 			String sql = """
-						SELECT name, addr
+						SELECT num, name, addr
 						FROM member
 						WHERE num=?
 					""";

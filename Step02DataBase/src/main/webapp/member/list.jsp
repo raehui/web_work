@@ -44,6 +44,7 @@
 					<td><%=tmp.getName()%></td>
 					<td><%=tmp.getAddr()%></td>
 					<td><a href="updateform.jsp">수정</a></td>
+					
 					<!-- 삭제하고 싶은 번호를 달고가기 -->
 					<td><a href="delete.jsp?num=<%=tmp.getNum()%>">삭제</a></td>
 				</tr>

@@ -1,12 +1,6 @@
-INDEX VERSION 1.4+C:\Users\acorn\Desktop\playground\web_work\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3997860301.index
-472891751.index
-1052899197.index
-2793188083.index
+INDEX VERSION 1.4+C:\Users\glaso\OneDrive\바탕 화면\playground\web_work\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 4219279280.index
 3453980384.index
-1840382615.index
-30779071.index
-805240445.index
+3997860301.index
 1840382615.index
 1991825215.index

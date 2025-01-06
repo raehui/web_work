@@ -9,7 +9,7 @@
 <body>
 	<div class="container">
 		<h1>회원 추가폼</h1>
-		<form action="${pageContext.request.contextPath}/member/insert.jsp" method="post">
+		<form action="${pageContext.request.contextPath}/member/insert.jsp" method="get">
 			<div>
 				<label for="name">이름</label>
 				<input type="text" name="name" id="name" placeholder="이름 입력..." />
